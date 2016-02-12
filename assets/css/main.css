@@ -69,6 +69,7 @@ textarea {
 
 body {
     font: 16px Helvetica, Helvetica Neue, Arial;
+    word-wrap: break-word;
 }
 
 .wrapper {
