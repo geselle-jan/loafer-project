@@ -449,6 +449,10 @@ section.gallery .photo {
     width: 100%;
 }
 
+section.gallery .photo img {
+    min-width: 100%;
+}
+
 body.single-photos h1.entry-title {
     margin-bottom: 0.5em;
 }
