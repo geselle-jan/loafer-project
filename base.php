@@ -16,10 +16,10 @@
   <div class="main-container wrap container" role="document">
     <div class="content row">
       <main class="main wrapper clearfix" role="main">
-        <article>
+        <section class="articles">
         <?php include roots_template_path(); ?>
-        </article>
-        <?php if (!is_page()) : ?>
+        </section>
+        <?php if (!is_page() && !is_singular('photos')) : ?>
           <aside class="sidebar" role="complementary">
             <?php dynamic_sidebar('sidebar-primary'); ?>
             <?php if (current_user_can('manage_options')) : ?>
