@@ -69,6 +69,7 @@ function photos_init() {
       )
     );
     register_post_type( 'photos', $args );
+    flush_rewrite_rules();
 }
 
 add_action( 'init', 'photos_init' );
