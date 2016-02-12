@@ -46,3 +46,29 @@ function monokaiTheme( $themes ) {
  
     return $themes;
 }
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 500, 500 );
+add_image_size ( 'photo', 1026, 1026, false );
+
+function photos_init() {
+    $args = array(
+      'label' => 'Photos',
+      'public' => true,
+      'show_ui' => true,
+      'capability_type' => 'post',
+      'hierarchical' => false,
+      'rewrite' => array('slug' => 'photos'),
+      'query_var' => true,
+      'menu_icon' => 'dashicons-camera',
+      'supports' => array(
+        'title',
+        'editor',
+        'thumbnail',
+        'revisions'
+      )
+    );
+    register_post_type( 'photos', $args );
+}
+
+add_action( 'init', 'photos_init' );
