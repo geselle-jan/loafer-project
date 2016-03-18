@@ -220,20 +220,23 @@ html {
 }
 
 body {
-    font-family: 'BreeSerif';
+    font-family: 'DroidSerif';
     font-size: 20px;
+    line-height: 1.66em;
     color: #333333;
     background: #f1f1f1;
     margin: 0;
 }
 
 h2, h3, h4, h5, h6 {
+    font-family: 'BreeSerif';
     font-weight: normal;
     margin: 1.5em 0 0.75em 0;
     line-height: 1em;
 }
 
 h1, .navbar-brand {
+    font-family: 'BreeSerif';
     font-size: 3em;
     font-weight: normal;
     color: #cc181e;
@@ -269,6 +272,7 @@ h2.entry-title {
 }
 
 nav.post-nav {
+    font-family: 'BreeSerif';
     float: none;
     width: 100%;
     margin-bottom: 2em;
@@ -431,7 +435,7 @@ body .main > .sidebar .widget_search {
     padding: 8px;
     display: block;
     margin: 0 0 1em 0;
-    font-family: 'BreeSerif';
+    font-family: 'DroidSerif';
     border-radius: 0;
     -webkit-appearance: none;
 }
