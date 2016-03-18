@@ -176,6 +176,8 @@ nav a:hover {
          url('../webfont/DroidSerif-Regular-webfont.woff') format('woff'),
          url('../webfont/DroidSerif-Regular-webfont.ttf') format('truetype'),
          url('../webfont/DroidSerif-Regular-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{ 
@@ -186,6 +188,7 @@ nav a:hover {
          url('../webfont/DroidSerif-Bold-webfont.ttf') format('truetype'),
          url('../webfont/DroidSerif-Bold-webfont.svg#webfont') format('svg');
     font-weight: bold;
+    font-style: normal;
 }
 
 @font-face{ 
@@ -195,7 +198,8 @@ nav a:hover {
          url('../webfont/DroidSerif-Italic-webfont.woff') format('woff'),
          url('../webfont/DroidSerif-Italic-webfont.ttf') format('truetype'),
          url('../webfont/DroidSerif-Italic-webfont.svg#webfont') format('svg');
-    font-style: italic, oblique;
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face{ 
@@ -206,7 +210,7 @@ nav a:hover {
          url('../webfont/DroidSerif-BoldItalic-webfont.ttf') format('truetype'),
          url('../webfont/DroidSerif-BoldItalic-webfont.svg#webfont') format('svg');
     font-weight: bold;
-    font-style: italic, oblique;
+    font-style: italic;
 }
 
 html {
