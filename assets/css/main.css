@@ -232,7 +232,7 @@ h2, h3, h4, h5, h6 {
     font-family: 'BreeSerif';
     font-weight: normal;
     margin: 1.5em 0 0.75em 0;
-    line-height: 1em;
+    line-height: 1.15em;
 }
 
 h1, .navbar-brand {
@@ -240,7 +240,7 @@ h1, .navbar-brand {
     font-size: 3em;
     font-weight: normal;
     color: #cc181e;
-    line-height: 1em;
+    line-height: 1.15em;
 }
 
 h1.entry-title {
@@ -253,13 +253,17 @@ h1.entry-title {
     display: block;
 }
 
+.header-container {
+    font-family: 'BreeSerif';
+}
+
 h2 {
     margin-top: 1em;
     font-size: 2em;
 }
 
 p {
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 a, a:active, a:visited, a:hover {
@@ -268,7 +272,7 @@ a, a:active, a:visited, a:hover {
 }
 
 h2.entry-title {
-    margin-bottom: 0;
+    margin-bottom: 0.25em;
 }
 
 nav.post-nav {
@@ -297,7 +301,7 @@ nav.post-nav li a {
 }
 
 article.post {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 body.metroid .main {
